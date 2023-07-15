@@ -10,6 +10,7 @@ interface ResultProps {
 }
 
 const Result = ({ onNext, resultData }: ResultProps) => {
+  console.log('result');
   return (
     <Form>
       가입완료!!
