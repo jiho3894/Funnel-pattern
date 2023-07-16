@@ -1,5 +1,5 @@
-import Button from '@/common/button';
 import Form from '@/common/form';
+import { Button } from 'charley-storybook';
 
 interface EmailProps {
   onNext: () => void;
@@ -11,7 +11,7 @@ const Email = ({ onNext }: EmailProps) => {
     <Form>
       <span>이메일을 입력해주세요.</span>
       <input type="email" required />
-      <Button onNext={onNext} />
+      <Button text="제출하기" onClick={onNext} />
     </Form>
   );
 };

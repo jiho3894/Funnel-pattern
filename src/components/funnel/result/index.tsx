@@ -1,5 +1,5 @@
-import Button from '@/common/button';
 import Form from '@/common/form';
+import { Button } from 'charley-storybook';
 
 interface ResultProps {
   onNext: () => void;
@@ -16,7 +16,7 @@ const Result = ({ onNext, resultData }: ResultProps) => {
       가입완료!!
       <span>email: {resultData?.email}</span>
       <span>phone: {resultData?.phone}</span>
-      <Button onNext={onNext} />
+      <Button onClick={onNext} text="제출하기" />
     </Form>
   );
 };
