@@ -10,7 +10,7 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "plugins": ["prettier", "@typescript-eslint"],
+  "plugins": ["prettier"],
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 2020
