@@ -1,13 +1,13 @@
 'use client';
-
-import { Button } from 'charley-storybook';
+import { Buton, Loading } from 'charley-storybook-emotion';
 import Link from 'next/link';
 
 const Home = () => {
   return (
     <Link href="/funnel">
       가입 페이지로 이동
-      <Button onClick={() => {}} text="가입하기" />
+      <Buton onClick={() => {}} text="가입하기" />
+      <Loading />
     </Link>
   );
 };
