@@ -6,7 +6,6 @@ interface EmailProps {
 }
 
 const Email = ({ onNext }: EmailProps) => {
-  console.log('email');
   return (
     <Form>
       <span>이메일을 입력해주세요.</span>

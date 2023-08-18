@@ -6,7 +6,6 @@ interface PhoneProps {
 }
 
 const Phone = ({ onNext }: PhoneProps) => {
-  console.log('phone');
   return (
     <Form>
       <span>전화번호를 입력해주세요.</span>
