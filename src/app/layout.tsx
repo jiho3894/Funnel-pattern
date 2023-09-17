@@ -1,5 +1,4 @@
 import './globals.css';
-import 'charley-storybook/dist/tailwind.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
